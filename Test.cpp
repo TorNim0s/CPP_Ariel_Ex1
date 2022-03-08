@@ -156,7 +156,7 @@ TEST_CASE("Test 14") {
 
 //Test to show that nospace isn't good
 TEST_CASE("Nospace not good"){
-    CHECK(nospace(mat(3,3, '!', '@')) == nospace("!!!!@!!!!")); // get True but the right one isn't what we want.
+    CHECK(nospaces(mat(3,3, '!', '@')) == nospaces("!!!!@!!!!")); // get True but the right one isn't what we want.
     CHECK(mat(3,3, '!', '@') != "!!!!@!!!!"); // here we will see that they are not the same without the function nospace therefore this is not the output we want.
 }
 

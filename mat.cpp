@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+#include "mat.hpp"
+
 using namespace std;
 
 namespace ariel{
