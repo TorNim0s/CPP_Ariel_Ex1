@@ -137,22 +137,22 @@ TEST_CASE("Test 11"){
                                 "///////");
 }
 
-
-TEST_CASE("Test 12") {
-      CHECK(mat(3, 3, '\0', '@') == "\0\0\0\n"
-                                    "\0@\0\n"
-                                    "\0\0\0");
-}
-TEST_CASE("Test 13") {
-    CHECK(mat(3, 3, '!', '\n') ==   "!!!\n"
-                                    "!\n!\n"
-                                    "!!!");
-}
-TEST_CASE("Test 14") {
-    CHECK(mat(3,3 , '\r', '\n') ==  "\r\r\r\n"
-                                    "\r\n\r\n"
-                                    "\r\r\r");
-}
+// dont know if this case is ok or not.
+// TEST_CASE("Test 12") {
+//       CHECK(mat(3, 3, '\0', '@') == "\0\0\0\n"
+//                                     "\0@\0\n"
+//                                     "\0\0\0");
+// }
+// TEST_CASE("Test 13") {
+//     CHECK(mat(3, 3, '!', '\n') ==   "!!!\n"
+//                                     "!\n!\n"
+//                                     "!!!");
+// }
+// TEST_CASE("Test 14") {
+//     CHECK(mat(3,3 , '\r', '\n') ==  "\r\r\r\n"
+//                                     "\r\n\r\n"
+//                                     "\r\r\r");
+// }
 
 //Test to show that nospace isn't good
 TEST_CASE("Nospace not good"){
